@@ -46,6 +46,33 @@ body {
 	}
 }
 
+//首页用的div样式
+.entry-content-homepage {
+	@include font-size(16);
+    max-height: 500px;
+    overflow: hidden;
+
+	// Dotted line underlines for links
+	p > a,
+	li > a {
+		border-bottom: 1px dotted lighten($link-color, 50);
+
+		&:hover {
+			border-bottom-style: solid;
+		}
+	}
+
+	li {
+		margin-bottom: 7px;
+	}
+
+	.footnotes {
+		ol, li, p {
+			@include font-size(14);
+		}
+	}
+}
+
 /* 
    Entry header
    ========================================================================== */

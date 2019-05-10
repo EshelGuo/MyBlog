@@ -1,4 +1,5 @@
 .idea/
+_posts_back/
 *.gem
 *.sublime-project
 *.sublime-workspace
