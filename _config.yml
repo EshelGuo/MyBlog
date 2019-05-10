@@ -1,22 +1,22 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Eshel的个人博客
+description:     永不止步
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url: https://eshelguo.github.io/MyBlog/
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Eshel
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  email:          1944549584@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
-  github:         
+  github:         https://github.com/EshelGuo/
   stackexchange:  
   linkedin:       
   instagram:      
