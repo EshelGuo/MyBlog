@@ -1,16 +1,15 @@
 ---
 layout: post
 title: 解决Android 拍照图片被旋转问题
-description: 我是描述文字
+description: 
 creditlink: https://blog.csdn.net/qq_27070117/article/details/89290840/
 tags: [sample post]
 image:
   background: triangular.png
 ---
+<font face="微软雅黑" size="4" style="line-height:32px">
 
-<font face="微软雅黑" size=4 style="line-height:32px">
-
-今天在项目中做拍照上传头像相关, 但调用系统相机拍照得到的图片总是旋转90度, 在网上找到了两种答案: 
+今天在项目中做拍照上传头像相关, 但调用系统相机拍照得到的图片总是旋转90度, 在网上找到了两种答案: </font>
 
 * 第一种如下, 无奈得到的旋转角度总是 0 度 , 无法解决旋转问题
 
@@ -49,7 +48,7 @@ image:
 
 * 第二种如下 , 通过比较图片宽高来旋转图片 , 可惜虽然竖着牌的照片能正常显示, 可一旦将相机横向拍摄, 展示到界面就多旋转了 90 度 , 故方法二无效
 
-```java
+``` java
 
 	int width = bitmap.getWidth();
 	int height = bitmap.getHeight();
@@ -107,4 +106,3 @@ image:
 	}
 
 至此问题得到解决, 无论横着拍照还是竖着拍照都能正确展示.
-</font>
